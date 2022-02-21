@@ -53,7 +53,7 @@ jobs:
       run: |
         cd /opt/openwrt_packit
         
-        wget  https://github.com/Netflixxp/shangyou/releases/download/$version/openwrt-armvirt-64-default-rootfs.tar.gz
+        wget  https://github.com/xianli789/Actions-OpenWrt-x86/releases/tag/2022.02.19-1557/download/$version/openwrt-armvirt-64-default-rootfs.tar.gz
                 
     - name: Check Files
       run: |
